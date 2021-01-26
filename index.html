@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="./style/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <title>Curry Rd</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
     <div class="top-wrap">
       <img src="./images/logo.svg" alt="" class="logo">
       <h1 class="title">Вулична їжа</br>з Індії, Таїланду та Японії</h1>
-      <!-- <a class="menu" href="#menu">Дивитись смаколики</a> -->
+      <button class="menu" id="menu_popup">Дивитись смаколики</button>
     </div>
     <div class="bottom-wrap">
       <p class="order">Замовляй через додаток:</p>
@@ -35,5 +37,42 @@
       </p>
     </div>
   </div>
+  <div class="menuPopup" id="menuPopup">
+    <div class="content">
+      <div class="close"></div>
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+        </div>
+    </div>
+    <div class="slider-footer">
+      <div class="slider-buttons">
+        <a href="#glovo" class="slider-link">
+          <img src="./images/Glovo.svg" alt="">
+        </a>
+        <a href="#raketa" class="slider-link">
+          <img src="./images/Raketa.svg" alt="">
+        </a>
+        <a href="#bolt" class="slider-link">
+          <img src="./images/Bolt.svg" alt="">
+        </a>
+      </div>
+      <p class="slider-footer-title">
+        Обери зручний сервіс для доставки
+      </p>
+      <p class="slider-footer-text">
+        *На даний час замовлення можливе за допомоги сервіс партнерів.
+        Натискаючи на обраний сервіс ви перейдете на сторінку сервісу для подальшого оформлення замовлення.
+      </p>
+    </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+</script>
+<script src="./js/script.js"></script>
 </body>
 </html>
